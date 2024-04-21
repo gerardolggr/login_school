@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #758686;
+}
+
+main{
+    display: inline-block;
+}
+
+/*Página de login - inicio de sesión*/
+.caja_login{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #c9c4c4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    position: absolute;
+    left: 35%;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image_main{
+    width: 200px;
+    position: relative;
+    left: 80px;
+}
+
+.btns_login{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+#btn_inicioSesion{
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #f5a237;
+    border-radius: 5px;
+    width: 60%;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    left: 20%;
+}
+
+#btn_registroUsuario{
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #f5a237;
+    border-radius: 5px;
+    width: 60%;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    left: 20%;
+}
+
+#btn_inicioSesion:hover, #btn_registroUsuario:hover{
+    cursor: pointer;
+    background-color: #a73c3c;
+    color: thistle;
+}
+
+
+/*Página de registro de usuarios*/
+.registro{
+    background-color: #c9c4c4;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 35%;
+    top: 100px;
+}
+
+.nombre_completo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 1.5px;
+}
+
+.nombre_completo input{
+    width: 40%;
+    padding: 5px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: #c9c4c4;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.datos_restantes input{
+    width: 100%;
+    padding: 5px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: #c9c4c4;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.btnRegistro{
+    margin: 13px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #a73c3c;
+    border-radius: 5px;
+    width: 30%;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    left: 30%;
+    color: thistle;
+}
+
+
+.btnRegistro:hover{
+    cursor: pointer;
+    background-color: #f5a237;
+    color: black;
+}
+
+/*Página de la credencial - card*/
+.card{
+    width: 600px;
+    height: 300px;
+    background-color: #c9c4c4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    position: absolute;
+    left: 27%;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-photo img{
+    width: 100px;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+}
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/sombrero-de-graduacion.png" type="image/x-icon">
+    <title>Registro de alumnos</title>
+    <link rel="stylesheet" href="index.css">    
+</head>
+<body>
+    <main> 
+        <div class="registro">
+            <h1>Registro de alumnos</h1>
+            <div>
+                <form id="formularioRegistro" action="">
+                    <div class="nombre_completo">     
+                        <label for="nombre"></label><br>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre(s)"><br>
+                        <label for="apellidos"></label><br>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Apellido(s)"><br>
+                    </div>
+                    <div class="datos_restantes">
+                        <label for="edad"></label><br>
+                        <input type="number" name="edad" id="edad" placeholder="Edad"><br>
+                        <label for="correo"></label><br>
+                        <input type="email" name="correo" id="correo" placeholder="Correo electrónico"><br>
+                        <label for="contrasena"></label><br>
+                        <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña"><br>
+                    </div>
+                </form>
+            </div>
+            <input class="btnRegistro" id="guardarDatos" type="button" value="Guardar Datos">       
+            <a href="card.html" target="_blank"><input class="btnRegistro" id="registrarAlumno" type="button" value="Registrar"></a>
+        </div>      
+    </main>
+   
+    <script src="/script.js"></script>
+</body>
+</html>
